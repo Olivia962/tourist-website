@@ -1326,19 +1326,30 @@ a {
         background-color: #fff;
         color: #78A31E;
         padding: 9px;
-        left: 69%;
-        top: 85%;
+        left: 76%;
+        top: 87%;
     }
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:468px) {
     .Indonesia_work {
         position: absolute;
         background-color: #fff;
         color: #78A31E;
         padding: 9px;
-        left: 63%;
-        top: 80%;
+        left: 69%;
+        top: 85%;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .Indonesia_work {
+        position: absolute;
+        background-color: #fff;
+        color: #78A31E;
+        padding: 9px;
+        left: 67%;
+        top: 83%;
     }
 }
 
@@ -1372,6 +1383,40 @@ a {
     }
 }
 
+.bg_white {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 420px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:1370px) {
+    .bg_white {
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .bg_white {
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .bg_white {
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
 .bg_white img {
     width: 420px;
     height: auto;
@@ -1393,14 +1438,7 @@ a {
 
 @media screen and (max-width:990px) {
     .bg_white img {
-        width: 244px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width:575px) {
-    .bg_white img {
-        width: 214px;
+        width: 100%;
         height: auto;
     }
 }
@@ -1460,48 +1498,7 @@ a {
     }
 }
 
-.bg_white {
-    background-color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 420px;
-    margin-bottom: 20px;
-}
 
-@media screen and (max-width:1370px) {
-    .bg_white {
-        background-color: white;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 300px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width:1130px) {
-    .bg_white {
-        background-color: white;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 300px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width:990px) {
-    .bg_white {
-        background-color: white;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 244px;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width:575px) {
-    .bg_white {
-        background-color: white;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 214px;
-        margin-bottom: 20px;
-    }
-}
 
 .star_img img {
     height: auto;
@@ -1570,6 +1567,18 @@ a {
     }
 }
 
+@media screen and (max-width:575px) {
+    .card_data_p {
+        text-align: center;
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
 .main_btns {
     display: flex;
     gap: 2px;
@@ -1603,12 +1612,16 @@ a {
     cursor: pointer;
 }
 
+.main_card {
+    width: 100% !important;
+}
+
 .three_main_cards {
     display: flex;
     gap: 9px;
     justify-content: center;
     margin: auto;
-    padding: 10px 50px;
+    /* padding: 10px 50px; */
 }
 
 @media screen and (max-width:850px) {
@@ -1621,14 +1634,13 @@ a {
     }
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:575px) {
     .three_main_cards {
         display: grid;
         grid-template-columns: 1fr;
         gap: 9px;
         justify-content: center;
         margin: auto;
-        padding: 10px 100px;
     }
 }
 
@@ -1889,6 +1901,13 @@ textarea::placeholder {
     width: 100%;
 }
 
+@media screen and (max-width: 575px) {
+    .First_2_inputs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* Styles for each input field */
 .First_2_inputs input {
     padding: 19px 20px;
@@ -1914,6 +1933,14 @@ textarea::placeholder {
     gap: 20px;
     margin-top: 20px;
     width: 100%;
+}
+
+@media screen and (max-width:575px) {
+    .second_2_inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
 }
 
 .second_2_inputs input {
@@ -2023,15 +2050,14 @@ button {
     margin-top: 20px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
     .Expert_h1 {
         font-size: 35px;
-        text-align: center;
-        display: flex;
-        margin: auto;
-        justify-content: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
+    }
+}
+@media screen and (max-width:575px) {
+    .Expert_h1 {
+        font-size: 30px;
     }
 }
 
@@ -2125,6 +2151,17 @@ button {
     margin-top: 18px;
     margin-bottom: 18px;
     font-size: 43px;
+}
+
+@media screen and (max-width: 768px) {
+    .inner_data_process h1 {
+        font-size: 35px;
+    }  
+}
+@media screen and (max-width: 575px) {
+    .inner_data_process h1 {
+        font-size: 30px;
+    }  
 }
 
 .process_box_one {
