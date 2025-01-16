@@ -909,7 +909,7 @@ a {
     }
 }
 
-/* #################### POPULAR WORK ###################### */
+/* #################### POPULAR  ###################### */
 
 .main_popular_work {
     margin-bottom: 50px;
@@ -1350,6 +1350,17 @@ a {
         padding: 9px;
         left: 67%;
         top: 83%;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .Indonesia_work {
+        position: absolute;
+        background-color: #fff;
+        color: #78A31E;
+        padding: 9px;
+        left: 62%;
+        top: 81%;
     }
 }
 
